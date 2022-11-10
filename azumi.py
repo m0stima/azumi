@@ -77,7 +77,7 @@ def dir_scan():
     dir = input('\nEnter the directory where the text files are: ')
     if (os.path.isdir(dir)) == True:
         for file in os.listdir(dir):
-            if (file.endswith('.txt')):
+            if (file.endswith('.txt','.log')):
                 j += 1
                 with open(os.path.join(dir, file), encoding="utf8") as f:
                     for l_no, line in enumerate(f):
