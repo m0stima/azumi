@@ -65,7 +65,6 @@ def txt_scan():
                 print('File: ', file)
                 print('Line Number: ', l_no)
                 print('Content: ', line)
-            else: break
         print('\nTotal results: ', i)
         print('Keyword: ', keyword)
     else:
@@ -88,7 +87,6 @@ def dir_scan():
                             print('File: ', file)
                             print('Line Number: ', l_no)
                             print('Content: ', line)
-                            break
     else:
         print('\nNot a directory.')
     
