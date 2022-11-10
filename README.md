@@ -3,6 +3,7 @@
 A simple text file scanner.
 
 ## Usage
+#### Target files
 Place the file or files to scan in a, preferably, empty directory.
 #### Run
 `python3 azumi.py` or `.\azummi.py`
