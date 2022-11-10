@@ -1,6 +1,6 @@
-## Azumi
+# Azumi
 
 A simple text file scanner.
 
-# Usage
+## Usage
 `python3 azumi.py` or `.\azummi.py`
