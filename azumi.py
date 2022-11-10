@@ -55,7 +55,7 @@ def main_menu():
 
 def txt_scan():
     i = 0
-    if (file := input('\nEnter text file (full path): ')).endswith('.txt'):
+    if (file := input('\nEnter text file (full path): ')).endswith(('.txt','.log')):
         print()
         f = open(file, encoding="utf8")
         for l_no, line in enumerate(f):
@@ -68,7 +68,7 @@ def txt_scan():
         print('\nTotal results: ', i)
         print('Keyword: ', keyword)
     else:
-        print('\nNot a .txt file.')
+        print('\nNot a valid file.')
 
 
 def dir_scan():
